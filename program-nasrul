@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	char metode;
-	int uang,beli,tukar;
+	int uang,tukar;
 	int dpt = 4;
 	cout<<" Nasrul Ingin Membeli Permen dengan Uang Rp.5000 miliknya "<<endl;
 	cout<<"-------------------------------------------------------"<<endl;
