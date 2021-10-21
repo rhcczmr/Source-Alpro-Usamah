@@ -20,7 +20,7 @@ int main() {
 	case '+':
 		hasil = x + y;
 		cout << "Hasil  : ";
-		cout << x << aritmatika << y << " = " << hasil << endl;
+		cout << hasil << endl;
 		break;
 	case '-':
 		hasil = x - y;
