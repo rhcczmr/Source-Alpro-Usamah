@@ -17,7 +17,7 @@ int main()
 	case 'b':
 	     cout<<"Berapa uang Nasrul                : ";
 		 cin>>uang;
-		 uang/=1000;
+		 uang/=250;
          cout<<"Nasrul mendapatkan                : "<<uang*dpt<<" permen"<<endl;
 		break;
 	
