@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char metode;
+	int uang,tukar;
+	int dpt = 4;
+	cout<<" Nasrul Ingin Membeli Permen dengan Uang Rp.5000 miliknya "<<endl;
+	cout<<"-------------------------------------------------------"<<endl;
+    
+	cout<< "Ingin beli atau tukar ?  [b/t]    : ";
+	cin>>metode;
+
+	switch (metode)
+	{
+	case 'b':
+	     cout<<"Berapa uang Nasrul                : ";
+		 cin>>uang;
+		 uang/=250;
+         cout<<"Nasrul mendapatkan                : "<<uang*dpt<<" permen"<<endl;
+		break;
+	
+	case 't':
+	     cout<<"Berapa permen yang dimiliki       : ";
+		 cin>>tukar;
+		 tukar/=3;
+		 cout<<"Apabila nasrul menukarnya,,maka nasrul mendapat "<<tukar<<" permen"<<endl;
+		 break;
+
+	default:
+	     cout<<"Masukkan metode yang sesuai    !! "<<endl;
+		break;
+	}
+
+	return 0;
+}
