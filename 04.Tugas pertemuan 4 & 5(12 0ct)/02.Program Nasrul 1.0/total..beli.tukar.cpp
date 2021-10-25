@@ -6,7 +6,7 @@ int main()
 {
     int uang,jumlah,tukar;
 
-    cout<<"Masukkan uang nsarul  : ";
+    cout<<"Masukkan uang nasrul  : ";
     cin>>uang;
     cout<<"\n";
     jumlah = uang/250;
